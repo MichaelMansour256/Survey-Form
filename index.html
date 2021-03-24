@@ -8,21 +8,58 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 id="title"></h1>
-    <p id="description"></p>
+    <div id="main">
+    <h1 id="title">football is life</h1>
+    <p id="description">
+        He was none other than Diego Maradona,
+        one of the world's greatest football players,<br>
+        also called 'The God of Football'.
+        He saw heaven and hell on Earth and died Wednesday at the age of 60.<br>
+        Maradona was a player who, apart from scoring goals, also made mistakes
+    </p>
     <form action="" id="survey-form">
-        <label for="name" >enter your name</label>
-        <input type="text" name="name" id="name">
+        <label for="name" id="name-label">enter your name</label>
+        <input type="text" name="name" id="name" placeholder="michael" required >
         <br>
-        <label for="name" >enter your email</label>
-        <input type="email" name="email" id="email">
+        <label for="name" id="email-label">enter your email</label>
+        <input type="email" name="email" id="email" placeholder="michael@yahoo.com"required>
         <br>
-        <label for="name" >enter number between 1 and 10</label>
-        <input type="number" name="number" id="number" min="1" max="10">
+        <label for="name" id="number-label">your age</label>
+        <input type="number" name="number" id="number" min="1" max="90" placeholder="3">
         <br>
-        <input type="button" value="submit">
+        <h3>your gender ?</h3>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="gender"> male </label>
+        <br>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="gender"> female</label>
+       
+        <br>
+        <h3>how many goals maradona scored ?</h3>
+        <select id="dropdown">
+            <option value="60">60</option>
+            <option value="120">120</option>
+            <option value="260">260</option>
+            <option value="700">700</option>
+        </select>
+        <br>
+        <label for="comment">what do you think about maradona</label>
+        <br>
+        <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+        <br>
+        <input type="checkbox" name="newslatter" id="newslatter" value="newslatter">
+        <label for="newslatter"> send our newslatter ?</label>
+        <br>
+        <input type="checkbox" name="updates" id="updates" value="updates">
+        <label for="updates"> send our updates and new articals ?</label>
+        <br>
+        <input type="checkbox" name="data" id="data" value="data">
+        <label for="data"> save your data ?</label>
+        <br>
+        <input type="submit" value="submit" id="submit">
     </form>
     
-    
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</div>
 </body>
 </html>

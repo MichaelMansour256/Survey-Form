@@ -1,0 +1,40 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+form{
+    height: 100%;
+    width:100%;
+    padding-left: 33%;
+    padding-bottom: 12%;
+
+    
+
+}
+
+input{
+    margin: 5px;
+}
+h1,p{
+    text-align: center;
+}
+body{
+    
+    background-image: url("images/maradona.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+
+   
+}
+
+#main{
+    background-color: rgba(115, 248, 122, 0.2);
+    height: 100%;
+    width:  100%;
+}
+#submit{
+    border-radius: 30px;
+    padding: 5px;
+}
+
